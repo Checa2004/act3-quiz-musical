@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f9;
+  color: #222;
+  margin: 0;
+}
+
+.navbar {
+  background: #6d28d9;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.caja, .card {
+  background: white;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+input {
+  padding: 0.6rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.btn {
+  background: #6d28d9;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.btn-opcion {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-opcion.verde {
+  background: #bbf7d0;
+  border-color: #16a34a;
+  font-weight: bold;
+}
+
+.btn-opcion.rojo {
+  background: #fecaca;
+  border-color: #dc2626;
+}
+
+.lista-ranking {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-ranking li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+  border-bottom: 1px solid #eee;
+}
+
+.lista-ranking li.actual {
+  background: #fef08a;
+}

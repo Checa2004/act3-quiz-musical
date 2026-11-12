@@ -1,0 +1,15 @@
+import { createRouter, createWebHistory } from 'vue-router'
+import HomeView from '../views/HomeView.vue'
+import QuizView from '../views/QuizView.vue'
+import RankingView from '../views/RankingView.vue'
+
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+    { path: '/', name: 'home', component: HomeView },
+    { path: '/jugar', name: 'jugar', component: QuizView },
+    { path: '/ranking', name: 'ranking', component: RankingView }
+  ]
+})
+
+export default router
